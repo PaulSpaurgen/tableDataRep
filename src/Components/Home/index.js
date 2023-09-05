@@ -179,7 +179,7 @@ export default function Home() {
           <Flex mb="40px" justifyContent="space-between">
             <Box
               w="100%"
-              h="150px"
+              h="100px"
               borderRadius="10px"
               border="1px"
               borderColor="gray.100"
@@ -191,7 +191,7 @@ export default function Home() {
               <Flex w="100%" h="100%" alignItems="center" >
                 <Icon as={FaSackDollar} color="#7A4AFF" fontSize="6xl" mr="4" />
                 <Box ml="2">
-                  <Text fontSize="5xl" color="#7A4AFF" fontWeight="bold">
+                  <Text fontSize="4xl" color="#7A4AFF" fontWeight="bold">
                     300K{" "}
                     <chakra.span fontSize="xl" color="black" fontWeight="bold">
                       {" "}
@@ -206,7 +206,7 @@ export default function Home() {
             </Box>
             <Box
               w="100%"
-              h="150px"
+              h="100px"
               borderRadius="10px"
               border="1px"
               borderColor="gray.100"
@@ -233,11 +233,10 @@ export default function Home() {
             </Box>
             <Box
               w="100%"
-              h="150px"
+              h="100px"
               borderRadius="10px"
               border="1px"
               borderColor="gray.100"
-              mr="8"
               boxShadow="sm"
               bgColor="#F2F2F2"
               p="5"
